@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Accordian from './components/accordion';
+import RandomColor from './components/random-color';
 
 function App() {
   return (
     <div className="App">
       {/*Accordion component */}
-      <Accordian></Accordian>
+      {/*<Accordian/>*/}
+      {/*Random-Color component */}
+      <RandomColor/>
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
