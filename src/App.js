@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Accordian from './components/accordion';
 import RandomColor from './components/random-color';
+import StarRating from './components/star-rating'
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       {/*Accordion component */}
       {/*<Accordian/>*/}
       {/*Random-Color component */}
-      <RandomColor/>
+      {/*<RandomColor/>*/}
+      {/*Star rating component */}
+      <StarRating noOfStars={10}/>
       {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
