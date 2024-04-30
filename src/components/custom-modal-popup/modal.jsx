@@ -3,7 +3,7 @@ export default function Modal({id,header,body,footer,onClose}){
         <div className="model-content">
             <div className="header">
                 <span onClick={onClose} className="close-modal-icon">&times;</span>
-                <h2>{header?header:"Header"}</h2>
+                {header?header:"Header"}
             </div>
             <div className="body">
                 {
